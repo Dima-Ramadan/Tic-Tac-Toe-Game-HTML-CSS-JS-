@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tic tac toc game</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="centered-wrapper">
+  <h1> Tic Tac Toc </h1>
+  <div class="choices">
+    <h3>Choose Your Letter</h3>
+    <button type="button" name="button" class="letter letterx">X </button>
+    <button type="button" name="button" class="letter lettero">O</button>
+  </div>
+
+  <div class="grid-container centered-content">
+    <div class="grid-item win-00 win-30 win-60" id="square-0"></div>
+    <div class="grid-item win-01 win-40" id="square-1"></div>
+    <div class="grid-item win-02 win-50 win-70" id="square-2"></div>
+    <div class="grid-item win-10 win-31" id="square-3"></div>
+    <div class="grid-item win-11 win-41 win-61 win-71" id="square-4"></div>
+    <div class="grid-item win-12 win-51" id="square-5"></div>
+    <div class="grid-item win-20 win-32 72" id="square-6"></div>
+    <div class="grid-item win-21 win-42" id="square-7"></div>
+    <div class="grid-item win-22 win-52 win-62" id="square-8"></div>
+  </div>
+
+  <div class="results">
+    <div class="player">
+      <div class="player-id">
+        Your Score
+      </div>
+      <div class="player-score player1">
+        0
+      </div>
+    </div>
+
+    <div class="player second-player">
+      <div class="player-id">
+        Player-2
+      </div>
+      <div class="player-score player2">
+        0
+      </div>
+    </div>
+
+  </div>
+
+
+  <button class="reset">reset</button>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
